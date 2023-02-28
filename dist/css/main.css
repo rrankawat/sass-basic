@@ -12,7 +12,7 @@ body {
 
 header {
   background: #333;
-  color: #f4f4f4;
+  color: #fff;
   padding: 1rem;
 }
 header h1 {
@@ -21,16 +21,17 @@ header h1 {
 
 .section {
   padding: 3rem;
-  color: #fff;
 }
 .section h3 {
   font-size: 2rem;
 }
 .section-a {
   background: steelblue;
+  color: #fff;
 }
 .section-b {
   background: skyblue;
+  color: #000;
 }
 
 .btn-dark, .btn-light {
@@ -44,11 +45,23 @@ header h1 {
 
 .btn-light {
   background-color: #f4f4f4;
-  color: #333;
+  color: #000;
+}
+.btn-light:hover {
+  --webkit-transform: $property;
+  -ms-transform: rotate(20deg);
+  transform: rotate(20deg);
+  background-color: #dbdbdb;
 }
 .btn-dark {
   background-color: #333;
   color: #fff;
+}
+.btn-dark:hover {
+  --webkit-transform: $property;
+  -ms-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+  background-color: #4d4d4d;
 }
 
 /*# sourceMappingURL=main.css.map */
