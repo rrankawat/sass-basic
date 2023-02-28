@@ -10,4 +10,34 @@ body {
   line-height: 1.5;
 }
 
+header {
+  background: #333;
+  color: #f4f4f4;
+  padding: 1rem;
+}
+header h1 {
+  text-align: center;
+}
+
+.section {
+  padding: 3rem;
+  color: #fff;
+}
+.section h3 {
+  font-size: 2rem;
+}
+.section-a {
+  background: steelblue;
+}
+.section-b {
+  background: skyblue;
+}
+
+a {
+  color: #333;
+}
+a:hover {
+  color: coral;
+}
+
 /*# sourceMappingURL=main.css.map */

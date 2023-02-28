@@ -11,3 +11,39 @@ body {
   font-family: $font-stack;
   line-height: 1.5;
 }
+
+header {
+  background: $dark-color;
+  color: $light-color;
+  padding: 1rem;
+
+  // Nesting
+  h1 {
+    text-align: center;
+  }
+}
+
+.section {
+  padding: 3rem;
+  color: #fff;
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  &-a {
+    background: $primary-color;
+  }
+
+  &-b {
+    background: $secondary-color;
+  }
+}
+
+a {
+  color: #333;
+
+  &:hover {
+    color: coral;
+  }
+}
